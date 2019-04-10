@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_inicio"
+        android:title="@string/inicio"
+        android:icon="@drawable/ic_home_black_24dp" />
+
+    <item
+        android:id="@+id/menu_viagens"
+        android:title="@string/viagens"
+        android:icon="@drawable/ic_flight_black_24dp" />
+
+    <item
+        android:id="@+id/menu_fotos"
+        android:title="@string/fotos"
+        android:icon="@drawable/ic_photo_library_black_24dp" />
+</menu>

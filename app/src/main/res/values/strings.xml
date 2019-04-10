@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Travelling</string>
+    <string name="inicio">Início</string>
+    <string name="viagens">Viagens</string>
+    <string name="bem_vindo">Seja bem vindo ao seu planejador de viagens</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="titulo">Título</string>
+    <string name="partida">Partida</string>
+    <string name="chegada">Chegada</string>
+    <string name="descricao">Descrição</string>
+    <string name="continuar">Continuar</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="remover">Remover</string>
+    <string name="roteiros">Roteiros</string>
+    <string name="fotos">Fotos</string>
+    <string name="local">Local</string>
+    <string name="dia">Dia</string>
+    <string name="salvar">Salvar</string>
+    <string name="mapa">Mapa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edicao">Edição</string>
+    <string name="lugares">Lugares</string>
+    <string name="sugestao">Sugestão de lugares</string>
+    <string name="buscar">Buscar</string>
+    <string name="onde_vai">Restaurantes próximos</string>
+    <string name="aparelho">smartphone</string>
+    <string name="sugestao_restaurantes">Sugestão de restaurantes</string>
+</resources>

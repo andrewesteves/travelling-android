@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_viagens_fotos"
+        android:title="@string/fotos" />
+
+    <item
+        android:id="@+id/menu_viagens_roteiro"
+        android:title="@string/roteiros" />
+
+    <item
+        android:id="@+id/menu_viagens_lugares"
+        android:title="@string/lugares"/>
+</menu>

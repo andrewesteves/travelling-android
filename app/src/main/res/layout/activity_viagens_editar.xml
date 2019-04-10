@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/app_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/titulo_edittext_ave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/titulo"
+                android:inputType="textPersonName"
+                android:layout_marginTop="60dp"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp">
+
+                <EditText
+                    android:id="@+id/partida_edittext_ave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_alignParentLeft="true"
+                    android:ems="10"
+                    android:hint="@string/partida"
+                    android:inputType="date"
+                    android:layout_marginTop="60dp"/>
+
+                <EditText
+                    android:id="@+id/chegada_edittext_ave"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_alignParentRight="true"
+                    android:ems="10"
+                    android:hint="@string/chegada"
+                    android:inputType="date"
+                    android:layout_marginTop="60dp"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/descricao_edittext_ave"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:ems="10"
+                android:hint="@string/descricao"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="180dp"
+                android:gravity="start"/>
+
+            <Button
+                android:id="@+id/remover_button_ave"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:background="@drawable/button_rounded_red"
+                android:text="@string/remover"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="350dp"/>
+
+            <Button
+                android:id="@+id/atualizar_button_ave"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignBaseline="@id/remover_button_ave"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:background="@drawable/button_rounded"
+                android:text="@string/atualizar"
+                android:layout_marginTop="350dp"/>
+
+        </RelativeLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+</ScrollView>

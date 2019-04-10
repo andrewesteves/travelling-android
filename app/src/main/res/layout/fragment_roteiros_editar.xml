@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoteirosEditarFragment">
+
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RoteirosAdicionarActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Edição de roteiro"
+            android:gravity="top|center"
+            android:layout_marginTop="5dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/titulo_viagem_fre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="?attr/actionBarSize"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/local_edittext_fre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/local"
+                android:inputType="textPersonName"/>
+
+            <EditText
+                android:id="@+id/dia_edittext_fre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/dia"
+                android:inputType="textPersonName"
+                android:layout_marginTop="50dp"/>
+
+            <EditText
+                android:id="@+id/descricao_edittext_fre"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:ems="10"
+                android:hint="@string/descricao"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="100dp"
+                android:gravity="start"/>
+
+            <Button
+                android:id="@+id/remover_button_fre"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:background="@drawable/button_rounded_red"
+                android:text="@string/remover"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="250dp"/>
+
+            <Button
+                android:id="@+id/adicionar_button_fre"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignBaseline="@+id/remover_button_fre"
+                android:layout_alignParentRight="true"
+                android:padding="10dp"
+                android:background="@drawable/button_rounded"
+                android:text="@string/salvar"
+                android:layout_marginTop="250dp"/>
+
+            <Button
+                android:id="@+id/buscar_lugar_fre"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:background="@drawable/button_rounded"
+                android:text="@string/onde_vai"
+                android:layout_marginTop="305dp"/>
+
+        </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+</FrameLayout>

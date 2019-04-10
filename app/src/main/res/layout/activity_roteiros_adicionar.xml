@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RoteirosAdicionarActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/app_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/titulo_viagem_ara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="?attr/actionBarSize"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/local_edittext_ara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/local"
+                android:inputType="textPersonName"
+                android:layout_marginTop="90dp"/>
+
+            <EditText
+                android:id="@+id/dia_edittext_ara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/dia"
+                android:inputType="textPersonName"
+                android:layout_marginTop="150dp"/>
+
+            <EditText
+                android:id="@+id/descricao_edittext_ara"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:ems="10"
+                android:hint="@string/descricao"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="210dp"
+                android:gravity="start"/>
+
+            <Button
+                android:id="@+id/adicionar_button_ara"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:background="@drawable/button_rounded"
+                android:text="@string/salvar"
+                android:layout_marginTop="380dp"/>
+
+        </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+</ScrollView>
